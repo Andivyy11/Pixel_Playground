@@ -11,7 +11,7 @@ const data=[
         image:"simon.png",
         description:"It is test of hearing memory, how long you can remember sound patterns? Find it out now.",
         play:"https://andivyy11.github.io/Simon/",
-        code:""
+        code:"https://github.com/Andivyy11/Simon"
     },
     {
         title:"Hangman",
@@ -45,8 +45,8 @@ const data=[
         title:"Canvas",
         image:"canvas.png",
         description:"A simple sketch board, implementing basic features",
-        play:"",
-        code:""
+        play:"canvas.png",
+        code:"https://github.com/Andivyy11/Canvas"
     }
 ]
 
