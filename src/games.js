@@ -10,7 +10,7 @@ const data=[
         title:"Simon",
         image:"simon.png",
         description:"It is test of hearing memory, how long you can remember sound patterns? Find it out now.",
-        play:"",
+        play:"https://andivyy11.github.io/Simon/",
         code:""
     },
     {
@@ -24,8 +24,8 @@ const data=[
         title:"Snake",
         image:"snake.png",
         description:"The timeless thrill of Snake! Guide your snake to eat and grow longer, but watch out for walls and yourself. It's easy to play and super addictive. How long can you survive?",
-        play:"",
-        code:""
+        play:"https://andivyy11.github.io/Snake/",
+        code:"https://github.com/Andivyy11/Snake"
     },
     {
         title:"Racing Car",
@@ -43,7 +43,7 @@ const data=[
     },
     {
         title:"Canvas",
-        image:"tictactoe.png",
+        image:"canvas.png",
         description:"A simple sketch board, implementing basic features",
         play:"",
         code:""
