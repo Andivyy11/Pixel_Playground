@@ -146,6 +146,10 @@
   font-weight: 400;
   border-radius: 10px;
 }
+.gameBox a{
+  text-decoration: none;
+  color:black;
+}
 .contact{
   background-color: rgb(41, 40, 40);
   padding:30px;

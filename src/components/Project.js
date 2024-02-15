@@ -16,8 +16,8 @@ function Project(props)
             <h2>{props.title}</h2>
             <span>{props.des}</span>
             <div>
-                <button>Play</button>
-                <button>View Code</button>
+                <button><a href={props.playLink}>Play</a></button>
+                <button><a href={props.codeLink}>View Code</a></button>
             </div>
         </div>
     </div>

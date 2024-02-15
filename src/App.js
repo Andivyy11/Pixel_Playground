@@ -43,6 +43,8 @@ function App() {
           title={p.title}
           des={p.description}
           image={p.image}
+          playLink={p.play}
+          codeLink={p.code}
          />
         )
       })} 
