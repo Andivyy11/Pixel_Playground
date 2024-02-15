@@ -56,7 +56,7 @@ function App() {
     <i class="fa-brands fa-github"></i>
     </div>
     <div>
-      <p style={{textAlign:'center'}}>Copyright </p>
+      <p style={{textAlign:'center'}}>Copyright Anuradha</p>
     </div>
     </div>
     
