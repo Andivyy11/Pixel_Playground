@@ -19,7 +19,7 @@ function App() {
     } , 300)
   }, []);
 
-
+  const color=["#F28585","#FFA447","#8CB9BD","#9BCF53","#0D9276","#C683D7"];
   return (
     <div className="App">
     <div className='hero'>
@@ -45,6 +45,7 @@ function App() {
           image={p.image}
           playLink={p.play}
           codeLink={p.code}
+          bcolor={color[index%color.length]}
          />
         )
       })} 

@@ -100,36 +100,48 @@
     background-position: 200% center;
   }
 }
-.three{
-  margin:30px 20px;
-  color:white;
-  font-size: 2rem;
-  font-weight: 600;
-}
 .gameBox{
-  width:600px;
+  width:700px;
   padding:20px;
   margin:25px;
   border-radius:17px;
-  background-color: white;
-  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  color: white;
+  transition:all 0.8s ease-in-out;
   opacity:0;
   display:flex;
   align-items: center;
   justify-content: space-between;
   gap:25px;
+  overflow: hidden;
+  position: relative;
 }
 .gameBox img{
   width:200px;
   height:200px;
   border-radius: 10px;
 }
+.divCover{
+  position:absolute;
+  width:140px;
+  height:140px;
+  border-radius: 50%;
+  top:0;
+  transform: translateY(-60%);
+  z-index:-1;
+  transition: all 0.2s linear;
+}
+.gameBox:hover .divCover{
+  transform: scale(7);
+}
+.gameBox:hover{
+  color:black;
+}
 .left-slide{
-  transform: translateX(-100%);
+  transform: translateX(-30%);
   flex-direction: row;
 }
 .right-slide{
-  transform: translateX(100%);
+  transform: translateX(30%);
   flex-direction: row-reverse;
 }
 .gameBox.active{

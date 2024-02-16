@@ -3,12 +3,20 @@ import React from 'react';
 function Project(props)
 {
     var animation=""
+    var divCoverStyles={}
     if(props.index%2===0)
-       animation="left-slide"
+    {  
+        animation="left-slide";
+        divCoverStyles={right:'0'}
+    }
     else 
-       animation="right-slide"
+    {
+       animation="right-slide";
+       divCoverStyles={left:'0'}
+    }
     return (
-    <div className={`${animation} gameBox`} key={props.index}>
+    <div className={`${animation} gameBox`} key={props.index} style={{border:`4px solid ${props.bcolor}`}}>
+        <div className='divCover' style={{...divCoverStyles ,backgroundColor:props.bcolor}}></div>
         <div>
             <img src={`assets/${props.image}`} alt={props.title} />
         </div>
