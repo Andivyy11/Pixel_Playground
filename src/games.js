@@ -2,7 +2,7 @@ const data=[
     {
         title:"Card Match",
         image:"cardMatch.png",
-        description:"Exercise your memory and concentration with this captivating Memory Card Matching Game! Test your skills by flipping cards and matching pairs in this classic game of recall",
+        description:"Exercise your memory with this captivating Memory Card Matching Game! Test your skills by flipping cards and matching pairs in this classic game of recall",
         play :"https://andivyy11.github.io/MemoryCardGame/",
         code :"https://github.com/Andivyy11/MemoryCardGame"
     },
