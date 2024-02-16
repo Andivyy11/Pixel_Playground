@@ -58,7 +58,7 @@ function App() {
     <a href="https://github.com/Andivyy11"><i class="fa-brands fa-github"></i></a>
     </div>
     <div>
-      <p style={{textAlign:'center'}}>Copyright Anuradha</p>
+      <p style={{textAlign:'center'}}>Copyright (c) 2024 Anuradha</p>
     </div>
     </div>
     
