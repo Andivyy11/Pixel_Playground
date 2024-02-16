@@ -53,9 +53,9 @@ function App() {
     <h2 className='rainbowText'>Get in Touch</h2>
     <p><span>Have questions, feedback, or just want to say hello?</span>Feel free to reach out using the contact form below. I'm always eager to connect with fellow developers.<br></br> Let's start a conversation and create something amazing together!</p>
     <div className='socials'>
-    <i class="fa-regular fa-envelope"></i>
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-brands fa-github"></i>
+    <a href="mailto:andivyy@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/anuradhasingh12/"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/Andivyy11"><i class="fa-brands fa-github"></i></a>
     </div>
     <div>
       <p style={{textAlign:'center'}}>Copyright Anuradha</p>

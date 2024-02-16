@@ -45,7 +45,7 @@ const data=[
         title:"Canvas",
         image:"canvas.png",
         description:"A simple sketch board, implementing basic features",
-        play:"canvas.png",
+        play:"https://andivyy.w3spaces-preview.com/index.html",
         code:"https://github.com/Andivyy11/Canvas"
     }
 ]
