@@ -79,16 +79,21 @@
   margin:0;
   padding:0;
 }
-.allGames{
+.container{
   background-color: rgb(41, 40, 40);
   width:100vw;
-  display:flex;
-  justify-content: center;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.allGames{
+  display:flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 .rainbowText{
   font-size: 3rem;
-  margin:25px auto;
+  margin:30px auto;
   background-image:linear-gradient( 90deg, #4fb1ff 10%, #fd09ed 40%, #ffb42d 80%, #4fb1ff 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
@@ -103,22 +108,24 @@
 .gameBox{
   width:700px;
   padding:20px;
-  margin:25px;
+  margin:30px;
   border-radius:17px;
   color: white;
-  transition:all 0.8s ease-in-out;
+  transition:opacity 0.8s ease-in-out,transform  0.8s ease-in-out;
   opacity:0;
   display:flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-end;
+  justify-content: space-between; 
   gap:25px;
   overflow: hidden;
-  position: relative;
 }
 .gameBox img{
   width:200px;
   height:200px;
   border-radius: 10px;
+}
+.gameBox span{
+  font-weight:500;
 }
 .divCover{
   position:absolute;
@@ -126,9 +133,9 @@
   height:140px;
   border-radius: 50%;
   top:0;
-  transform: translateY(-60%);
+  transform: translateY(-50%);
   z-index:-1;
-  transition: all 0.2s linear;
+  transition: transform 0.2s linear;
 }
 .gameBox:hover .divCover{
   transform: scale(7);
@@ -137,16 +144,16 @@
   color:black;
 }
 .left-slide{
-  transform: translateX(-30%);
+  transform: translateX(-40%);
   flex-direction: row;
 }
 .right-slide{
-  transform: translateX(30%);
+  transform: translateX(40%);
   flex-direction: row-reverse;
 }
 .gameBox.active{
   transform: translateX(0);
-  align-self: center;
+  /* align-self: center; */
   opacity:1;
 }
 .gameBox button{
@@ -169,16 +176,59 @@
 .contact p{
   color:white;
   font-size:1.2rem;
+  margin:30px auto;
 }
-.contact span{
+.contact p span{
   display:block;
   font-size: 1.5rem;
   color:#fed384;
   font-weight: 500;
   margin-bottom: 20px;
 }
-.socials i{
+.socials a{
   font-size: 30px;
   color:white;
+}
+.socials > span{
+  position:relative;
   margin:30px 15px;
+  padding:14px 0;
+}
+.tooltip{
+  color:black;
+  background-color:#fed384;
+  position:absolute;
+  font-size: 15px;
+  top:100%;
+  left:0;
+  border-radius: 5px;
+  padding:4px 9px;
+  display:none;
+}
+.socials >span:hover .tooltip{
+  display: inline-block;
+}
+@media screen and (max-width:760px)
+{
+  .gameBox{
+    width:100%;
+    margin:10px;
+    padding:6px;
+    flex-direction: column;
+    gap:4px;
+    align-items: center;
+  }
+  .gameBox img{
+    width:140px;
+    height:140px;
+  }
+  .maintext h1{
+    font-size: 2rem;
+  }
+  .maintext p{
+    font-size: 1.4rem;
+  }
+  .waviy span{
+    font-size: 2rem;
+  }
 }

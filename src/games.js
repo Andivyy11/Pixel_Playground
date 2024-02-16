@@ -2,7 +2,7 @@ const data=[
     {
         title:"Card Match",
         image:"cardMatch.png",
-        description:"Exercise your memory and concentration with our captivating Memory Card Matching Game! Test your skills by flipping cards and matching pairs in this classic game of recall",
+        description:"Exercise your memory and concentration with this captivating Memory Card Matching Game! Test your skills by flipping cards and matching pairs in this classic game of recall",
         play :"https://andivyy11.github.io/MemoryCardGame/",
         code :"https://github.com/Andivyy11/MemoryCardGame"
     },
@@ -23,14 +23,14 @@ const data=[
     {
         title:"Snake",
         image:"snake.png",
-        description:"The timeless thrill of Snake! Guide your snake to eat and grow longer, but watch out for walls and yourself. It's easy to play and super addictive. How long can you survive?",
+        description:"The timeless thrill of Snake! Guide your snake to eat and grow longer, but watch out for walls and yourself. It's easy to play and super addictive.",
         play:"https://andivyy11.github.io/Snake/",
         code:"https://github.com/Andivyy11/Snake"
     },
     {
         title:"Racing Car",
         image:"CarRace.png",
-        description:"How long can you take your car without hitting obstacles?",
+        description:"How long can you take your car while avoiding obstacles?",
         play:"https://andivyy11.github.io/Car_Race/",
         code:"https://github.com/Andivyy11/Car_Race"
     },
@@ -44,9 +44,16 @@ const data=[
     {
         title:"Canvas",
         image:"canvas.png",
-        description:"A simple sketch board, implementing basic features",
+        description:"A simple sketch board, where you can draw , color and save your drawings",
         play:"https://andivyy.w3spaces.com/index.html",
         code:"https://github.com/Andivyy11/Canvas"
+    },
+    {
+        title:"Piano",
+        image:"piano.png",
+        description:"Experience the joy of playing music with this virtual piano of seven notes and five chords.",
+        play:"https://andivyy11.github.io/Piano/",
+        code:"https://github.com/Andivyy11/Piano"
     }
 ]
 
