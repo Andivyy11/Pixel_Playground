@@ -65,6 +65,7 @@
 .maintext p{
   font-size: 2rem;
   transition: margin-top 2s linear;
+  text-align: center;
 }
 .slideDown{
   margin-bottom:100%;
@@ -99,6 +100,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s ease-in-out infinite;
+  text-align: center;
 }
 @keyframes textclip {
   to { 
